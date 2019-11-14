@@ -49,7 +49,7 @@ Three different Datasets are available from [Metro-Bikeshare](https://bikeshare.
 ## EDA & Visualization
 
 # Time Series Analysis
-* [Global hourly trends by day of week](https://github.com/Jkim516/Bber/Flask/images/global_hourly_trend.png)
+* <img width="640" alt="global_hourly_trend" src="https://user-images.githubusercontent.com/48810540/68901380-afd04f80-06ea-11ea-8ffa-082b0329ad2b.png">
 
 ## Modeling
 Each bike stations hourly demand have trend and seasonality based on the time-series. Therefore, Facebook Prophet model can forecast time series data based on an additive model where non-linear trends. It is fast and provides completely automated forecasts. 
