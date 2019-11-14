@@ -1,7 +1,6 @@
 # Bike N' Ride
-The Bike N' Ride is a tool I developed to provide demand of bike stations in LA Downtown by predicting number of bikes availability in any given 1 hour time period. The Dataset is subset of [Metro Bikeshare Data](https://bikeshare.metro.net/about/data/). Bike N' Ride deployed onto web application using Heroku [Bike N' Ride](https://bike-n-ride.herokuapp.com/). The project can be found at the [Github](https://github.com/Jkim516/Bber).
-
-#### -- Project Status: [Completed]
+The Bike N' Ride is a tool I developed to provide demand of bike stations in LA Downtown by predicting number of bikes availability in any given 1 hour time period. The Dataset is subset of [Metro Bikeshare Data](https://bikeshare.metro.net/about/data/). [Bike N' Ride](https://bike-n-ride.herokuapp.com/) deployed onto web application using Heroku. The project can be found at the [Github](https://github.com/Jkim516/Bber).
+<img width="1440" alt="bike_n_ride" src="https://user-images.githubusercontent.com/48810540/68903067-cbd5f000-06ee-11ea-9de1-eb44c8d59676.png">
 
 ## Project Intro/Objective
 The purpose of this project is forecasting demand of Metro Bikeshare in LA Downtown by predicting the number of bikes that will be available in any given 1 hour time-period.
@@ -65,11 +64,13 @@ The time-series graph shows each station must have its own temporal profile, a c
 
 ## Modeling
 Each bike stations hourly demand have trend and seasonality based on the time-series. Therefore, Facebook Prophet model can forecast time series data based on an additive model where non-linear trends. It is fast and provides completely automated forecasts. 
+* Trend
+![prophet_monthly](https://user-images.githubusercontent.com/48810540/68903070-cbd5f000-06ee-11ea-81c2-0cca1e07ba16.png)
+* Facebook Prophet Model Projection
+![prophet_demand](https://user-images.githubusercontent.com/48810540/68903068-cbd5f000-06ee-11ea-8f01-66a9c41ca368.png)
 
-* [Prophet](link)
-
-## Final 
-- 
+## Bike N' Ride 
+- Please check Bike N' Ride application [Here](https://bike-n-ride.herokuapp.com/).
 
 ## Contact
 I can be find in [Linkedin](www.linkedin.com/in/JungmoKim90) | [Github](https://github.com/Jkim516) for more details. 
